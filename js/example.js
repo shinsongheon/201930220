@@ -66,9 +66,8 @@ modalsubmitBtn.onclick = () => {
       if (key === 'studentNo') setStudentNo(value);
       if (key === 'email') setEmail(value);
     }
+    inputModalElement.close();
   }
-
-  inputModalElement.close();
 };
 
 inputModalElement.onclick = (event) => {
