@@ -1,3 +1,12 @@
 html {
-    background-color: blanchedalmond;
+  background-color: blanchedalmond;
+}
+
+.inline {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.red {
+  color: red;
 }
